@@ -1,9 +1,9 @@
 .nav {
   background-color: #f9f9fa;
   padding: 20px 50px;
-  position : fixed;
+  position: fixed;
   bottom: 0;
-  width : 100%;
+  width: 100%;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.137);
 }
@@ -13,32 +13,23 @@
   justify-content: space-between;
 }
 
-.nav__link{
-  color:rgba(0, 0, 0, 0.784);
+.nav__link {
+  color: rgba(0, 0, 0, 0.784);
   position: relative;
 }
 
-.nav__notification{
-  background-color: red;
-  height: 20px;
-  width: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color:white;
-  font-weight: 600;
-  position : absolute;
-  left : 20px;
-  bottom : 15px;
+.nav__notification {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
 }
 
-.nav__alarm-dot{
+.nav__alarm-dot {
   background-color: red;
   height: 6px;
   width: 6px;
   border-radius: 3px;
-  position : absolute;
-  left : 28px;
-  bottom : 23px;
+  position: absolute;
+  left: 28px;
+  bottom: 23px;
 }

@@ -1,0 +1,21 @@
+.section-header {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.section-header-sub {
+  position: absolute;
+  right: 8px;
+
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.247);
+}
