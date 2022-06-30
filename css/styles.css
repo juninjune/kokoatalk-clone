@@ -9,4 +9,22 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
+
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-top: 40px;
+}
+
+.screen-header__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.screen-header__icons > span {
+  padding: 10px;
 }
