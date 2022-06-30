@@ -1,14 +1,18 @@
 .menu {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 15px 0px;
 }
 
 .menu-item {
+  position: relative;
   display: flex;
+  /* justify-content: first baseline; */
   flex-direction: column;
   align-items: center;
-  justify-content: first baseline;
+  margin: 15px 0px;
+
   color: rgba(0, 0, 0, 0.678);
 }
 
