@@ -1,0 +1,17 @@
+.alt-screen-header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px var(--screen-horizontal-space);
+  padding-top: 39px;
+}
+
+.screen-header__tditle {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.screen-header__icons > span {
+  padding: 10px;
+}
