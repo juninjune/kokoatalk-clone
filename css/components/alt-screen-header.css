@@ -1,5 +1,5 @@
 .alt-screen-header {
-  background-color: aqua;
+  background-color: blueviolet;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,11 +7,12 @@
   padding-top: 39px;
 }
 
-.screen-header__tditle {
-  font-size: 28px;
+.alt-screen-header__title {
+  font-size: 21px;
   font-weight: 600;
 }
 
-.screen-header__icons > span {
-  padding: 10px;
+.alt-screen-header__column i {
+  display: block;
+  padding: 0 5px;
 }
