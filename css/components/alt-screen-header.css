@@ -1,7 +1,12 @@
 .alt-screen-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
   padding: 15px var(--screen-horizontal-space);
   padding-top: 39px;
 }
@@ -12,10 +17,23 @@
 }
 
 .alt-screen-header__column {
+  width: 33%;
+}
+.alt-screen-header__column:first-child {
   display: flex;
+  justify-content: left;
+}
+.alt-screen-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.alt-screen-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.alt-screen-header__column span {
+.alt-screen-header__column:last-child span {
   display: block;
-  padding: 0px 8px;
+  margin-left: 20px;
 }

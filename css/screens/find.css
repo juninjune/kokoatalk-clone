@@ -1,3 +1,7 @@
+.find-body {
+  height: 1000vh;
+}
+
 .find-recommended-friends__no-recommended-friends {
   display: block;
   padding: 70px;
@@ -89,4 +93,22 @@
   font-size: 15px;
   font-weight: 400;
   color: white;
+}
+
+.find-open-chat__image-like:hover i {
+  will-change: transform;
+  animation: heartBeat 0.6s linear;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: scale(1.5);
+    color: rgb(184, 73, 73);
+  }
+  100% {
+    transform: none;
+  }
 }

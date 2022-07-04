@@ -14,3 +14,16 @@
 .screen-header__icons > span {
   padding: 10px;
 }
+
+@keyframes rotateFa {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateFa 2.5s linear infinite;
+}

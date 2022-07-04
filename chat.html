@@ -26,9 +26,7 @@
     <header class="alt-screen-header">
       <div class="alt-screen-header__column">
         <a href="chats.html">
-          <span>
-            <i class="fas fa-angle-left fa-2x"></i>
-          </span>
+          <span><i class="fas fa-angle-left fa-2x"></i></span>
         </a>
       </div>
       <div class="alt-screen-header__column">
@@ -40,7 +38,45 @@
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Monday, July 04, 2022</div>
+
+      <div class="message-row">
+        <img
+          src="https://www.adobe.com/kr/express/create/media_127a4cd0c28c2753638768caf8967503d38d01e4c.jpeg?width=400&format=jpeg&optimize=medium"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">Goldenview</span>
+          <div class="message__info">
+            <span class="message__text">[광고] 날아올라~ 저 하늘!</span>
+            <span class="message__time">22:45</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__text">관심이 없습니다.</span>
+            <span class="message__time">22:45</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-circle-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-solid fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up fa-lg"></i></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/79587e9eed.js"
